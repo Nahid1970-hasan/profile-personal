@@ -100,7 +100,7 @@ function Layout({ children }) {
               <a href="#"><FaInstagram /></a>
               <a href="#"><FaDribbble /></a>
             </div>
-            <button className="pink-button"> <a href="https://drive.google.com/file/d/1iemZnDwbZ1WxKpWeLQNnl3oOWH3OguQH/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Download CV</a></button>
+            <button className="pink-button"> <a href="https://drive.google.com/file/d/1umSqWK3kQ_n-le06LViUTsnjQctbpTRw/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Download CV</a></button>
           </div>
         </div>
       </header>
