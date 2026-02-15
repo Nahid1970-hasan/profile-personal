@@ -79,13 +79,13 @@ function Layout({ children }) {
               Service
             </Link>
             <Link to="/project" className={location.pathname === '/project' ? 'active' : ''}>Projects</Link>
-            <Link 
+            {/* <Link 
               to="/certifications" 
               className={location.pathname === '/certifications' ? 'active' : ''}
               onClick={handleBlogClick}
             >
-              Blog
-            </Link>
+              Certifications
+            </Link> */}
             <Link 
               to="/contact" 
               className={location.pathname === '/contact' ? 'active' : ''}
