@@ -285,19 +285,16 @@ function Home() {
                                         <h4>Bachelor of Science</h4>
                                         <p className="resume-company">Daffodil International University</p>
                                         <p className="resume-date">2017-2021</p>
-                                        <p className="resume-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
                                     <div className="resume-card">
                                         <h4>Higher Secondary School Certificate</h4>
                                         <p className="resume-company">Sristy College of Tangail</p>
                                         <p className="resume-date">2015-2016</p>
-                                        <p className="resume-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
                                     <div className="resume-card">
                                         <h4>Secondary School Certificate</h4>
                                         <p className="resume-company">Bindubasini Government Boys' High School</p>
                                         <p className="resume-date">2012-2014</p>
-                                        <p className="resume-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
 
                                 </div>
