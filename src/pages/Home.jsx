@@ -65,7 +65,7 @@ function Home() {
                     <div className="stats-content">
                         <div className="stats-left">
                             <div className="years-badge">
-                                <span className="years-number">2+</span>
+                                <span className="years-number">3+</span>
                                 <span className="years-text">Years Of Experience</span>
                             </div>
                             <p className="stats-description">
