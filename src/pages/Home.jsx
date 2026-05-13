@@ -3,9 +3,6 @@ import '../App.css';
 // import img1 from '../assets/h.png';
 import img1 from '../assets/ha.png';
 import {
-    FaQuoteLeft
-} from 'react-icons/fa';
-import {
     FiGrid
 } from 'react-icons/fi';
 

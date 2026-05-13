@@ -7,6 +7,8 @@ import realestate from '../assets/real.PNG';
 import videoStreaming from '../assets/online.jpg';
 import biz360expo from '../assets/expo.PNG';
 import hedOtds from '../assets/hots.png';
+import greenWeb from '../assets/green.PNG';
+import build from '../assets/build.PNG';
 
 function Project() {
   return (
@@ -127,6 +129,29 @@ function Project() {
                     <a href="https://github.com/Nahid1970-hasan/hed_otds" target="_blank" rel="noopener noreferrer">Online Tenderer Database System – Health Education Department</a>
                   </h3>
                   <span>Customized version of OTDS for the Health Education Department, tailored to their specific procurement needs.</span>
+                </div>
+              </div>
+            </div>
+            <div className="project-item-large">
+              <div className="project-image-container" style={{ backgroundImage: `url(${greenWeb})` }}>
+                <div className="project-overlay"></div>
+                <div className="project-content">
+                  <h3>
+                    <a href="https://green-web-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">Green WEB</a>
+                  </h3>
+                  <span>A modern plant eCommerce website with a clean green-themed design, featuring indoor plants, product collections, best sellers, blogs, testimonials, and a smooth shopping experience.</span>
+                </div>
+              </div>
+            </div>
+            <div className="project-item-wide">
+              <div className="project-image-container" style={{ backgroundImage: `url(${build})` }}>
+                <div className="project-overlay"></div>
+                <div className="project-content">
+                  <h3>
+                    <a href="https://urban-axis.vercel.app/" target="_blank" rel="noopener noreferrer">Video Streaming Management System (Client)</a>
+                  </h3>
+                  <span>A modern construction and engineering website with a luxury design, showcasing building projects, architectural solutions, and professional construction services.
+                  </span>
                 </div>
               </div>
             </div>

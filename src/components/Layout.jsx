@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import '../App.css';
@@ -21,6 +22,18 @@ import {
 
 function Layout({ children }) {
   const location = useLocation();
+  const [cvIndex, setCvIndex] = useState(0);
+
+  const cvLinks = [
+    'https://drive.google.com/file/d/1uUFJ5ruC5QBj4gwYdUCCrawoJFN2-0OF/view?usp=drive_link',
+    'https://drive.google.com/file/d/1nba2tLmg37yBJoNOkiMJjyQPOXtJdvkX/view?usp=drive_link',
+  ];
+
+  const handleDownloadCV = (e) => {
+    e.preventDefault();
+    window.open(cvLinks[cvIndex], '_blank', 'noopener,noreferrer');
+    setCvIndex((prev) => (prev + 1) % cvLinks.length);
+  };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -100,7 +113,7 @@ function Layout({ children }) {
               <a href="#"><FaInstagram /></a>
               <a href="#"><FaDribbble /></a>
             </div>
-            <button className="pink-button"> <a href="https://drive.google.com/file/d/1umSqWK3kQ_n-le06LViUTsnjQctbpTRw/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Download CV</a></button>
+            <button className="pink-button" onClick={handleDownloadCV}>Download CV</button>
           </div>
         </div>
       </header>
@@ -128,10 +141,10 @@ function Layout({ children }) {
             <div className="footer-links">
               <div className="footer-column">
                 <h4>Quick Link</h4>
-                <Link to="/about">About Us</Link>
-                <a href="#service">Service</a>
-                <a href="#portfolio">Projects</a>
-                <a href="#blog">Blog Post</a>
+                <Link to="/about" onClick={scrollToTop}>About Us</Link>
+                <Link to="/service" onClick={scrollToTop}>Service</Link>
+                <Link to="/project" onClick={scrollToTop}>Projects</Link>
+                <Link to="/certifications" onClick={scrollToTop}>Blog Post</Link>
               </div>
               <div className="footer-column">
                 <h4>Contact</h4>

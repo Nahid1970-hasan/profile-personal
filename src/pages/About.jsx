@@ -124,6 +124,24 @@ function About() {
                                     <div className="skill-progress" style={{ width: '60%' }}></div>
                                 </div>
                             </div>
+                            <div className="skill-item">
+                                <div className="skill-header">
+                                    <span>Claude AI</span>
+                                    <span>80%</span>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill-progress" style={{ width: '80%' }}></div>
+                                </div>
+                            </div>
+                            <div className="skill-item">
+                                <div className="skill-header">
+                                    <span>ChatGPT</span>
+                                    <span>85%</span>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill-progress" style={{ width: '85%' }}></div>
+                                </div>
+                            </div>
                         </div>
                         <div className="skills-column">
                             <h3 className="skills-title">Others Skills</h3>
@@ -181,6 +199,26 @@ function About() {
                                     <div className="skill-progress" style={{ width: '60%' }}></div>
                                 </div>
                             </div>
+
+                            <div className="skill-item">
+                                <div className="skill-header">
+                                    <span>Cursor AI</span>
+                                    <span>85%</span>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill-progress" style={{ width: '85%' }}></div>
+                                </div>
+                            </div>
+                           
+                            <div className="skill-item">
+                                <div className="skill-header">
+                                    <span>Google AI Studio</span>
+                                    <span>60%</span>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill-progress" style={{ width: '60%' }}></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -192,18 +230,18 @@ function About() {
                     <div className="about-stats-content">
                         <div className="about-stats-left">
                             <div className="about-years-badge">
-                                <span className="about-years-number">2+</span>
+                                <span className="about-years-number">3+</span>
                                 <span className="about-years-text">Years Of Experience</span>
                             </div>
                             <p className="about-stats-description">
                             I specialize in creating dynamic and scalable web applications using React and modern JavaScript technologies.
-                            I have 2+ years of experience in software development and problem-solving.
+                            I have 3+ years of experience in software development and problem-solving.
                             I have worked on a variety of projects, including web applications, mobile applications, and desktop applications.
                             </p>
                         </div>
                         <div className="about-stats-right">
                             <div className="about-stat-card">
-                                <div className="about-stat-number">5+</div>
+                                <div className="about-stat-number">8+</div>
                                 <div className="about-stat-label">Our Project Complete</div>
                             </div>
                             <div className="about-stat-card">
@@ -211,7 +249,7 @@ function About() {
                                 <div className="about-stat-label">World Bank Projects</div>
                             </div>
                             <div className="about-stat-card">
-                                <div className="about-stat-number">4+</div>
+                                <div className="about-stat-number">5+</div>
                                 <div className="about-stat-label">Clients Reviews</div>
                             </div>
                             <div className="about-stat-card">
