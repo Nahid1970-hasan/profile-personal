@@ -7,8 +7,8 @@ import realestate from '../assets/real.PNG';
 import videoStreaming from '../assets/online.jpg';
 import biz360expo from '../assets/expo.PNG';
 import hedOtds from '../assets/hots.png';
-import greenWeb from '../assets/green.PNG';
-import build from '../assets/build.PNG';
+import greenWeb from '../assets/green.png';
+import build from '../assets/build.png';
 
 function Project() {
   return (
