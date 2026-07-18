@@ -148,7 +148,7 @@ function Project() {
                 <div className="project-overlay"></div>
                 <div className="project-content">
                   <h3>
-                    <a href="https://urban-axis.vercel.app/" target="_blank" rel="noopener noreferrer">Video Streaming Management System (Client)</a>
+                    <a href="https://urban-axis.vercel.app/" target="_blank" rel="noopener noreferrer"> Urban Axis – Construction & Architectural Solutions Platform</a>
                   </h3>
                   <span>A modern construction and engineering website with a luxury design, showcasing building projects, architectural solutions, and professional construction services.
                   </span>
